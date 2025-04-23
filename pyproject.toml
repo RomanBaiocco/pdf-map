@@ -1,0 +1,12 @@
+[project]
+name = "pdf-map"
+version = "0.1.0"
+description = "Generate a 1:1 scale PDF map from an OSM PBF file"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "osmium>=4.0.2",
+    "reportlab>=4.2.5",
+    "shapely>=2.0.7",
+    "tqdm>=4.67.1",
+]
